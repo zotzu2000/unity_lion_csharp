@@ -151,6 +151,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ship: {fileID: 471231067}
+  name1: KID
+  name2: "50\u5927\u5927"
+  name3: "\u4EAE\u4EAE\u5927\u5927"
+  names: []
+  weights:
+  - 0
+  - 0
+  - 0
+  scores: 0a00000014000000320000005a000000
+  mission: 010000
 --- !u!4 &90293102
 Transform:
   m_ObjectHideFlags: 0

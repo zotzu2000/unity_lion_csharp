@@ -82,7 +82,6 @@ public class Class6_StaticAPI : MonoBehaviour
 
         //Vector3.one = new Vector3(1, 1, 1);
         tran1.localScale = Vector3.one * 5;
-        tran2.localScale = Vector3.one * 3;
     }
 
     //偵測玩家輸入 - 約 60 FPS
@@ -95,7 +94,6 @@ public class Class6_StaticAPI : MonoBehaviour
 
         //非靜態方法
         //物件名稱.非靜態方法(對應的引數)
-        tran1.Rotate(0, 0, 10);
-        tran2.Rotate(0, 0, -10);
+        tran1.Rotate(0, 0, 10 * Time.deltaTime);
     }
 }

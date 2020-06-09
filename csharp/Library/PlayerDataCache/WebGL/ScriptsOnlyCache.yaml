@@ -56,29 +56,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11202}
     - Class: 114
-      Script: {instanceID: 11480}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11996}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 12502}
+      Script: {instanceID: 11998}
     - Class: 114
-      Script: {instanceID: 12668}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 12774}
+      Script: {instanceID: 12670}
     - Class: 114
-      Script: {instanceID: 12914}
+      Script: {instanceID: 12776}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 12916}
     - Class: 114
-      Script: {instanceID: 13154}
+      Script: {instanceID: 12938}
     - Class: 114
-      Script: {instanceID: 13576}
+      Script: {instanceID: 13156}
     - Class: 114
-      Script: {instanceID: 13644}
+      Script: {instanceID: 13568}
     - Class: 114
-      Script: {instanceID: 15806}
+      Script: {instanceID: 13580}
     - Class: 114
-      Script: {instanceID: 15990}
+      Script: {instanceID: 13648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -126,6 +126,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.ProBuilder.dll
     namespaceName: UnityEngine.ProBuilder
     className: PreferenceDictionary
+  - hash:
+      serializedVersion: 2
+      Hash: c8334d4b085373cec75dd15d5468ce97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: House
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -602,6 +608,12 @@ ScriptsOnlyBuild:
     className: Class3
   - hash:
       serializedVersion: 2
+      Hash: e7f5f9c4c4386fd56a4039f2ff695fbe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MonsterManager
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -690,18 +702,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: c8334d4b085373cec75dd15d5468ce97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: House
-  - hash:
-      serializedVersion: 2
-      Hash: e7f5f9c4c4386fd56a4039f2ff695fbe
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MonsterManager
   platform: 20
   scenePathNames:
   - "Assets/\u7B2C\u4E03\u7AE0\u7DF4\u7FD2.unity"

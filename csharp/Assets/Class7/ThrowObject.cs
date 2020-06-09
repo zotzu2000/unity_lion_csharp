@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class ThrowObject : MonoBehaviour
 {
+    [Header("傷害值"), Range(10, 500)]
+    public float damage;
     [Header("爆炸效果")]
     public GameObject explosion;
 
@@ -21,6 +23,7 @@ public class ThrowObject : MonoBehaviour
     {
         if (collision.gameObject.name == "房子")
         {
+            collision.gameObject.GetComponent<House>().Damage(damage);
             Explosion();
         }
     }

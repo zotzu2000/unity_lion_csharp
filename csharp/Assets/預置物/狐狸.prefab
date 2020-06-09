@@ -160,3 +160,4 @@ MonoBehaviour:
   stopDistance: 10
   prop: {fileID: 991744125008014080, guid: 2e50fa316ff6283489f7af27fde43229, type: 3}
   cd: 2
+  deadTime: 6

@@ -61,9 +61,10 @@ public class Far : Ground
             {
                 timer = 0;   // 計時器 歸零
 
-            // 生成(丟擲物品，中心點 + 右邊 + 上方，角度)
-            GameObject temp = Instantiate(prop, transform.position + transform.right * 2 + transform.up * 2, Quaternion.identity);
-            temp.GetComponent<Rigidbody2D>().AddForce(new Vector2(300, 150));
+                // 生成(丟擲物品，中心點 + 右邊 + 上方，角度)
+                GameObject temp = Instantiate(prop, transform.position + transform.right * 1.5f + transform.up * 1.5f, Quaternion.identity);
+                temp.GetComponent<Rigidbody2D>().AddForce(new Vector2(300, 200));
+                temp.GetComponent<ThrowObject>().damage = damage;   // 將遠距離傷害值賦予丟擲物品
             }
 
             Invoke("Explosion", deadTime);  // 延遲呼叫方法("方法名稱"，延遲時間)

@@ -43,6 +43,8 @@ public class Class9_DelegateEvent : MonoBehaviour
     public DelegateTest dB;
     public DelegateTest dC;
 
+    public DelegateTest d;
+
     public DelegateTest2 d2C;
 
     private void Start()
@@ -58,5 +60,12 @@ public class Class9_DelegateEvent : MonoBehaviour
 
         d2C = MethodC;      // 儲存 方法 C
         d2C("我是委派");
+
+        d = MethodA;
+        d += MethodB;
+        d += MethodB;
+
+        d();
+
     }
 }
